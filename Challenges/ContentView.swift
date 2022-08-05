@@ -24,7 +24,8 @@ struct ContentView: View {
                     .background(Color.green)
                     .cornerRadius(10)
                 
-            }
+            } //: ZStack
+            
             Text("What up?")
                 .padding()
                 .foregroundColor(Color.white)
@@ -33,7 +34,17 @@ struct ContentView: View {
                 .padding()
                 .background(Color.purple)
                 .cornerRadius(10)
-        }
+            
+            Text("Hello CodeCrew")
+                .padding()
+                .background(Color.teal)
+                
+                .foregroundColor(Color.white)
+                .cornerRadius(10)
+            
+        } //: VStack
+        
+        
        
         
         
